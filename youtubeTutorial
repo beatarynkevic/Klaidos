@@ -1,0 +1,18 @@
+//  https://www.youtube.com/watch?v=JTjeGpSUL2M
+
+package javaapplication44;
+import java.util.Scanner;
+public class JavaApplication44 {
+
+
+    public static void main(String[] args) {
+        
+        Scanner keyboardInput = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        try {
+            double num = keyboardInput.nextDouble();
+            System.out.println(num);
+        } catch(Exception e) {
+            System.out.println(e); //telling what was wrong
+        }
+}
